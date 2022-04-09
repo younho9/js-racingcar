@@ -7,6 +7,7 @@ module.exports = {
 	rules: {
 		'no-alert': 'off',
 	},
+	ignores: ['vite-env.d.ts'],
 	overrides: [
 		{
 			files: ['**/cypress/**/*.js'],
